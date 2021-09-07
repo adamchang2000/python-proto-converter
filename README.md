@@ -3,14 +3,14 @@
 The Python Proto Converter converts between protos in Python. Proto conversion is often needed when converting between Database Access Object (DAO) and API proto.
 
 ### Install
-pip install python-proto-converter
+`pip install python-proto-converter`
 
 ### Run the example
 1. Build the proto (assuming in exmaple/ directory)
-   protoc -I=. --python_out=. ./example_proto.proto
+   `protoc -I=. --python_out=. ./example_proto.proto`
 
 2. execute
-   python3 ./converter_example.py
+   `python3 ./converter_example.py`
 
 ### Features
 
